@@ -22,7 +22,7 @@ function Header() {
               Hey, I&apos;m Mohammed Omar, and I love building beautiful
               websites
             </h2>
-            <a href="#about-me">
+            <a href="#about-me" style={{ scrollBehavior: "smooth" }}>
               <Button
                 text={"ABOUT ME"}
                 src={"./images/icons/down-arrows.svg"}
