@@ -72,7 +72,7 @@ function Project() {
             <Link to={`/portfolio/${obj.previous.toLowerCase()}`}>
               <img
                 id="left-arrow"
-                src="./images/icons/arrow-left.svg"
+                src="../images/icons/arrow-left.svg"
                 alt="Left pointing arrow"
               />
             </Link>
@@ -88,7 +88,7 @@ function Project() {
               <Link to={`/portfolio/${obj.next.toLowerCase()}`}>
                 <img
                   id="right-arrow"
-                  src="./images/icons/arrow-right.svg"
+                  src="../images/icons/arrow-right.svg"
                   alt="Right pointing arrow"
                 />
               </Link>
@@ -97,16 +97,15 @@ function Project() {
               <h3>{obj.next}</h3>
               <p>Next Project</p>
             </div>
-            {isDesktop ||
-              (isTablet && (
-                <Link to={`/portfolio/${obj.next.toLowerCase()}`}>
-                  <img
-                    id="right-arrow"
-                    src="./images/icons/arrow-right.svg"
-                    alt="Right pointing arrow"
-                  />
-                </Link>
-              ))}
+            {(isDesktop || isTablet) && (
+              <Link to={`/portfolio/${obj.next.toLowerCase()}`}>
+                <img
+                  id="right-arrow"
+                  src="../images/icons/arrow-right.svg"
+                  alt="Right pointing arrow"
+                />
+              </Link>
+            )}
           </div>
         </div>
       </div>
