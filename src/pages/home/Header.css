@@ -1,0 +1,63 @@
+header {
+  width: 100vw;
+  padding: 0 213px;
+  background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw calc((100vw * 20) / 37);
+}
+
+.landing-container {
+  position: relative;
+  height: calc(((100vw - 426px) * 20) / 37);
+  /*background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 426px) calc(((100vw - 426px) * 20) / 37);*/
+}
+
+.intro {
+  width: 60%;
+  background-color: var(--color-very-light-grey);
+  padding: 5px 10px 30px 213px;
+  position: absolute;
+  bottom: 0;
+  left: -213px;
+}
+
+.intro > a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1224px) {
+  header {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .landing-container {
+    height: 600px;
+    background: url("../../assets/images/homepage/tablet/image-homepage-hero@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .landing-container {
+    background: none;
+  }
+
+  .landing-container > img {
+    width: 100%;
+  }
+
+  .intro {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .intro > h1 {
+    font-size: 40px;
+  }
+}

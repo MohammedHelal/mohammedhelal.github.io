@@ -1,0 +1,15 @@
+.bare-btn {
+  height: 45px;
+  padding: 0 25px;
+  border: 1px solid var(--color-grayish-blue);
+  background-color: var(--color-very-light-grey);
+  font-family: "Public Sans", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+
+.bare-btn:hover {
+  background-color: var(--color-grayish-blue);
+  color: var(--color-very-light-grey);
+}

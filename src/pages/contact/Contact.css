@@ -1,0 +1,96 @@
+.contacts {
+  width: 100vw;
+  padding: 0 213px 10px;
+  /*margin: 100px 0;*/
+}
+
+.get-in-touch {
+  border-top: 2px solid var(--color-light-grey);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 0 40px;
+}
+
+.get-in-touch > div {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons > img {
+  margin: 0 25px;
+  cursor: pointer;
+  filter: brightness(0%);
+}
+
+.contact-icons > img:first-child {
+  margin-left: 0;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form > div {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  font-weight: 700;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 0;
+  background-color: var(--color-light-grey);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1px solid var(--color-cyan);
+  outline: 1px solid var(--color-cyan);
+}
+
+.input-error,
+.input-error:focus {
+  border: 1px solid var(--color-bright-red);
+  outline: 1px solid var(--color-bright-red);
+}
+
+.input-error-msg {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-bright-red);
+}
+
+.msg-error {
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 1224px) {
+  .contacts {
+    padding: 10px 20px;
+  }
+
+  .get-in-touch {
+    display: block;
+  }
+
+  .get-in-touch > div {
+    width: 100%;
+  }
+
+  .contact-icons > img {
+    margin: 0 10px;
+  }
+}
