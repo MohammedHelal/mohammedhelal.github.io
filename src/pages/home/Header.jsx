@@ -12,7 +12,7 @@ function Header() {
       <article className="landing-container">
         {isMobile && (
           <img
-            src="./src/assets/images/homepage/mobile/image-homepage-hero@2x.jpg"
+            src="../assets/images/homepage/mobile/image-homepage-hero@2x.jpg"
             alt="Landing Image"
           />
         )}
@@ -25,7 +25,7 @@ function Header() {
             <a href="#about-me">
               <Button
                 text={"ABOUT ME"}
-                src={"./src/assets/images/icons/down-arrows.svg"}
+                src={"../assets/images/icons/down-arrows.svg"}
                 alt={"Arrow pointing down"}
               />
             </a>
