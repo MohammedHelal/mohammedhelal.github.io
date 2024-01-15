@@ -20,9 +20,9 @@ function Contact() {
             profiles below and get in touch using the form.
           </p>
           <div className="contact-icons">
-            <img src="./src/assets/images/icons/github.svg" alt="" />
-            <img src="./src/assets/images/icons/linkedin.svg" alt="" />
-            <img src="./src/assets/images/icons/twitter.svg" alt="" />
+            <img src="./images/icons/github.svg" alt="" />
+            <img src="./images/icons/linkedin.svg" alt="" />
+            <img src="./images/icons/twitter.svg" alt="" />
           </div>
         </div>
       </article>

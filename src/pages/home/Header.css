@@ -1,7 +1,7 @@
 header {
   width: 100vw;
   padding: 0 213px;
-  background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
+  background: url("../images/homepage/desktop/image-homepage-hero@2x.jpg");
   background-repeat: no-repeat;
   background-size: 100vw calc((100vw * 20) / 37);
 }

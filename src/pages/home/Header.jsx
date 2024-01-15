@@ -25,7 +25,7 @@ function Header() {
             <a href="#about-me">
               <Button
                 text={"ABOUT ME"}
-                src={"../assets/images/icons/down-arrows.svg"}
+                src={"./images/icons/down-arrows.svg"}
                 alt={"Arrow pointing down"}
               />
             </a>

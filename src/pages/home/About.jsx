@@ -16,19 +16,19 @@ function About() {
       <article className="about-container">
         {isDesktopOrLaptop && (
           <img
-            src="../../src/assets/images/homepage/desktop/mohammeds-photo.jpg"
+            src="./images/homepage/desktop/mohammeds-photo.jpg"
             alt="self image"
           />
         )}
         {isTablet && (
           <img
-            src="../../src/assets/images/homepage/tablet/mohammeds-photo.jpg"
+            src="./images/homepage/tablet/mohammeds-photo.jpg"
             alt="self image"
           />
         )}
         {isMobile && (
           <img
-            src="../../src/assets/images/homepage/mobile/image-homepage-profile@2x.jpg"
+            src="./images/homepage/mobile/image-homepage-profile@2x.jpg"
             alt="self image"
             className="mobile-img"
           />
