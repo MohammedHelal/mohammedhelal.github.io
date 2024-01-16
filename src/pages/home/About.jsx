@@ -22,13 +22,13 @@ function About() {
         )}
         {isTablet && (
           <img
-            src="./images/homepage/tablet/mohammeds-photo.jpg"
+            src="./images/homepage/desktop/mohammeds-photo.jpg"
             alt="self image"
           />
         )}
         {isMobile && (
           <img
-            src="./images/homepage/mobile/mohammeds-photo.jpg"
+            src="./images/homepage/desktop/mohammeds-photo.jpg"
             alt="self image"
             className="mobile-img"
           />
