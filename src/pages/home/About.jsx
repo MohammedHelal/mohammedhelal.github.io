@@ -28,7 +28,7 @@ function About() {
         )}
         {isMobile && (
           <img
-            src="./images/homepage/mobile/image-homepage-profile@2x.jpg"
+            src="./images/homepage/mobile/mohammeds-photo.jpg"
             alt="self image"
             className="mobile-img"
           />

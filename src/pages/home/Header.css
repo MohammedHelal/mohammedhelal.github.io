@@ -8,10 +8,12 @@ header {
 
 .landing-container {
   position: relative;
+  /*
   height: calc(((100vw - 426px) * 20) / 37);
-  /*background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
+  background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
   background-repeat: no-repeat;
-  background-size: calc(100vw - 426px) calc(((100vw - 426px) * 20) / 37);*/
+  background-size: calc(100vw - 426px) calc(((100vw - 426px) * 20) / 37);
+  */
 }
 
 .intro {
