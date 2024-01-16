@@ -65,7 +65,7 @@
   }
 
   .nav-list > li {
-    padding: 10px 60px;
+    padding: 10px 10px;
     border-bottom: 1px solid var(--color-light-grey);
   }
 
@@ -74,7 +74,7 @@
   }
 
   .nav-list > li:last-child {
-    padding-right: 60px;
+    padding-right: 10px;
   }
 
   .nav-link > a {
