@@ -33,18 +33,15 @@ header {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .landing-container {
-    height: 600px;
-    background: url("../../assets/images/homepage/tablet/image-homepage-hero@2x.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 600px;
+@media only screen and (max-width: 768px) {
+  header {
+    background: url("../images/homepage/tablet/image-homepage-hero@2x.jpg");
   }
 }
 
 @media only screen and (max-width: 450px) {
-  .landing-container {
-    background: none;
+  header {
+    background: url("../images/homepage/mobile/image-homepage-hero@2x.jpg");
   }
 
   .landing-container > img {
