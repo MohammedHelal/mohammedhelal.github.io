@@ -66,11 +66,6 @@
 
   .nav-list > li {
     padding: 10px 10px;
-    border-bottom: 1px solid var(--color-light-grey);
-  }
-
-  .nav-list > li:first-child {
-    border-top: 1px solid var(--color-light-grey);
   }
 
   .nav-list > li:last-child {
