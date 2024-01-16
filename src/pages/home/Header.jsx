@@ -12,7 +12,7 @@ function Header() {
       <article className="landing-container">
         {isMobile && (
           <img
-            src="../assets/images/homepage/mobile/image-homepage-hero@2x.jpg"
+            src="../images/homepage/mobile/image-homepage-hero@2x.jpg"
             alt="Landing Image"
           />
         )}
