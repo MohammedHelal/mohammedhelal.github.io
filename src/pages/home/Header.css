@@ -37,6 +37,10 @@ header {
   header {
     background: url("../images/homepage/tablet/image-homepage-hero@2x.jpg");
   }
+
+  .intro {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
