@@ -36,6 +36,7 @@
 @media screen and (max-width: 450px) {
   .about-container {
     display: block;
+    margin: 20px 0;
   }
 
   .about-article {

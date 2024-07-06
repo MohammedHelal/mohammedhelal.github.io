@@ -8,8 +8,9 @@ header {
 
 .landing-container {
   position: relative;
-  /*
   height: calc(((100vw - 426px) * 20) / 37);
+  /*
+  
   background: url("../../assets/images/homepage/desktop/image-homepage-hero@2x.jpg");
   background-repeat: no-repeat;
   background-size: calc(100vw - 426px) calc(((100vw - 426px) * 20) / 37);
@@ -32,23 +33,31 @@ header {
 @media only screen and (max-width: 1224px) {
   header {
     padding: 0 20px;
+    background: url("../images/homepage/tablet/image-homepage-hero@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw calc(((100vw - 40px) * 75) / 86);
+  }
+
+  .landing-container {
+    height: calc((((100vw - 40px) * 75) / 86) - 80px);
   }
 }
 
 @media only screen and (max-width: 768px) {
-  header {
-    background: url("../images/homepage/tablet/image-homepage-hero@2x.jpg");
-  }
-
   .intro {
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 0px;
+    left: -20px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   header {
     background: none;
+  }
+
+  .landing-container {
+    height: auto;
   }
 
   .landing-container > img {

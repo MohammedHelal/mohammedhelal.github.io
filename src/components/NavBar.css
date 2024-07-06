@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 1224px) {
   .header-nav {
-    padding: 45px 20px;
+    width: calc(100vw - 40px);
   }
 }
 
@@ -65,11 +65,11 @@
   }
 
   .nav-list > li {
-    padding: 10px 10px;
+    padding: 10px 40px;
   }
 
   .nav-list > li:last-child {
-    padding-right: 10px;
+    padding-right: 40px;
   }
 
   .nav-link > a {

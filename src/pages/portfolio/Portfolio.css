@@ -1,0 +1,11 @@
+/*Index*/
+.port-navbar {
+  padding: 0 213px;
+}
+
+@media only screen and (max-width: 1224px) {
+  .port-navbar {
+    padding: 0 0;
+  }
+}
+/*******/

@@ -16,13 +16,13 @@ function About() {
       <article className="about-container">
         {isDesktopOrLaptop && (
           <img
-            src="./images/homepage/desktop/mohammeds-photo.jpg"
+            src="./images/homepage/desktop/Mohammeds.jpeg"
             alt="self image"
           />
         )}
         {isTablet && (
           <img
-            src="./images/homepage/desktop/mohammeds-photo.jpg"
+            src="./images/homepage/tablet/mohammeds-photo.jpg"
             alt="self image"
           />
         )}

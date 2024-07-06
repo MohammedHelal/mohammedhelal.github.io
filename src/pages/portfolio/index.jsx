@@ -1,11 +1,12 @@
 import Interested from "../../components/Interested";
 import { Outlet } from "react-router-dom";
 import NavBar from "../../components/NavBar";
+import "./Portfolio.css";
 
 function Portfolio() {
   return (
     <main>
-      <div style={{ padding: "0 213px" }}>
+      <div className="port-navbar">
         <NavBar />
       </div>
       <Outlet />
