@@ -16,7 +16,7 @@ function About() {
       <article className="about-container">
         {isDesktopOrLaptop && (
           <img
-            src="./images/homepage/desktop/Mohammeds.jpeg"
+            src="./images/homepage/desktop/mohammeds-photo.jpg"
             alt="self image"
           />
         )}
