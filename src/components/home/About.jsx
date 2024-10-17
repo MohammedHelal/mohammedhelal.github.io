@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TagSphere from "./tagsphere/tagsphere";
+import TagSphere from "./tagsphere/TagSphere.jsx";
 import "./About.css";
 
 function About() {
