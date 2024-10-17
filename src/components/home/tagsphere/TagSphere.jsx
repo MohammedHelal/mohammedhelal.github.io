@@ -9,39 +9,39 @@ function TagSphere() {
 
   // Animation settings for Text Cloud
   useEffect(() => {
-    return () => {
-      const container = ".tagcloud";
-      const texts = [
-        tagShpereIcons.html,
-        tagShpereIcons.css,
-        tagShpereIcons.javascript,
-        tagShpereIcons.react,
-        tagShpereIcons.next,
-        tagShpereIcons.nodejs,
-        tagShpereIcons.github,
-        tagShpereIcons.postgresql,
-        tagShpereIcons.csharp,
-        tagShpereIcons.aspnet,
-        tagShpereIcons.mssql,
-      ];
+    const container = ".tag-sphere";
+    const texts = [
+      tagShpereIcons.html,
+      tagShpereIcons.css,
+      tagShpereIcons.javascript,
+      tagShpereIcons.react,
+      tagShpereIcons.next,
+      tagShpereIcons.nodejs,
+      tagShpereIcons.github,
+      tagShpereIcons.postgresql,
+      tagShpereIcons.csharp,
+      tagShpereIcons.aspnet,
+      tagShpereIcons.mssql,
+    ];
 
-      const options = {
-        radius: isMobile ? 175 : 250,
-        maxSpeed: "normal",
-        initSpeed: "normal",
-        keep: true,
-        useHTML: true,
-      };
-
-      TagCloud(container, texts, options);
+    const options = {
+      radius: isMobile ? 175 : 250,
+      maxSpeed: "normal",
+      initSpeed: "normal",
+      keep: true,
+      useHTML: true,
     };
+
+    TagCloud(container, texts, options);
+
+    return () => {};
   }, [isMobile]);
 
   return (
     <>
       <div className="tag-sphere">
-        {/* span tag className must be "tagcloud"  */}
-        <span className="tagcloud"></span>
+        {/* span tag className must be "tagcloud"  
+        <span className="tagcloud"></span>*/}
       </div>
     </>
   );
