@@ -32,17 +32,19 @@ function TagSphere() {
       useHTML: true,
     };
 
-    TagCloud(container, texts, options);
+    if (!document.querySelector(".tagcloud")) {
+      TagCloud(container, texts, options);
+    } else {
+      document.querySelector(".tagcloud").remove();
+      TagCloud(container, texts, options);
+    }
 
     return () => {};
   }, [isMobile]);
 
   return (
     <>
-      <div className="tag-sphere">
-        {/* span tag className must be "tagcloud"  
-        <span className="tagcloud"></span>*/}
-      </div>
+      <div className="tag-sphere"></div>
     </>
   );
 }
