@@ -1,7 +1,15 @@
+import kanban from "../assets/kanban/kanban.png";
+import photosnap from "../assets/photosnap/photosnap.png";
+import mhstore from "../assets/mh-store/mh-store.png";
+import designo from "../assets/designo/designo.png";
+import coffeeroasters from "../assets/coffee-roasters/coffee-roasters.png";
+import dine from "../assets/dine/dine.png";
+
+("./src/assets/kanban");
 export const PAGES = [
   {
     id: "kanban",
-    landingImg: "../images/detail/desktop/kanban/kanban.png",
+    landingImg: kanban,
     title: "Kanban",
     para: "Kanban Board Web App is a task management tool built using Next.js, TailwindCSS, and PostgreSQL, designed to streamline workflows through a responsive and dynamic user interface.",
     tags: ["Web app", "Full stack", "Next JS", "Tailwind CSS", "PostgreSQL"],
@@ -19,7 +27,7 @@ export const PAGES = [
   },
   {
     id: "photsnap",
-    landingImg: "../images/detail/desktop/photosnap/photosnap.png",
+    landingImg: photosnap,
     title: "Photosnap",
     para: "Photo Snap is a 4-page promotional photo-sharing website developed with Next.js. It highlights responsive design and performance optimization to deliver a seamless user experience.",
     tags: ["Website", "Front-end", "Next JS", "Tailwind CSS"],
@@ -49,7 +57,7 @@ export const PAGES = [
   },
   {
     id: "mhstore",
-    landingImg: "../images/detail/desktop/mh-store/mh-store.png",
+    landingImg: mhstore,
     title: "MH store",
     para: "MH Store is a 3-page e-commerce website built with React, focusing on responsive design and a seamless shopping experience.",
     tags: ["E-Commerce", "Front-end", "React JS", "Tailwind CSS"],
@@ -70,7 +78,7 @@ export const PAGES = [
   },
   {
     id: "designo",
-    landingImg: "../images/detail/desktop/designo/designo.png",
+    landingImg: designo,
     title: "Designo",
     para: "Designo is a multi-page responsive website developed for a web design company, emphasizing modern front-end development techniques and interactive design.",
     tags: ["Website", "Front-end", "React JS", "Tailwind CSS"],
@@ -92,7 +100,7 @@ export const PAGES = [
   },
   {
     id: "coffeeroasters",
-    landingImg: "../images/detail/desktop/coffee-roasters/coffee-roasters.png",
+    landingImg: coffeeroasters,
     title: "Coffee Roasters",
     para: "Coffee Roasters is a 3-page website that showcases premium coffee offerings and allows customers to customize their coffee delivery based on personal preferences.",
     tags: ["Website", "Front-end", "React JS", "Tailwind CSS"],
@@ -113,7 +121,7 @@ export const PAGES = [
   },
   {
     id: "dine",
-    landingImg: "../images/detail/desktop/dine/dine.png",
+    landingImg: dine,
     title: "Dine",
     para: "Dine is a 2-page restaurant website designed to offer a dynamic, interactive experience, utilizing modern front-end technologies.",
     tags: ["Website", "Front-end", "React JS", "Tailwind CSS"],

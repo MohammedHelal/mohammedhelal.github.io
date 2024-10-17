@@ -1,6 +1,7 @@
 //import Button from "../../utils/Button";
 
 import "./Hero.css";
+import hero from "../../assets/hero-image.png";
 
 function Hero() {
   return (
@@ -17,7 +18,7 @@ function Hero() {
       </article>
       <img
         className="mx-auto lg:mx-0 w-[500px] lg:w-auto h-auto lg:h-[500px]"
-        src="../images/homepage/desktop/image-homepage-hero@2x.png"
+        src={hero}
         alt="Landing Image"
       />
     </section>
