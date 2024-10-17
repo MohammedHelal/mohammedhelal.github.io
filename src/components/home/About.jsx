@@ -13,7 +13,7 @@ function About() {
         src="./images/homepage/desktop/mohammeds-photo.jpg"
         alt="self image"
       />*/}
-      <div className="flex items-start">
+      <div className="flex items-start justify-center">
         <TagSphere />
       </div>
       <article
