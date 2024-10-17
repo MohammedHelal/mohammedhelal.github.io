@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import hamburger from "../../assets/icons/hamburger.svg";
+import close from "../../assets/icons/close.svg";
 import "./NavBar.css";
 
 function NavBar() {
-  const [imgSrc, setImgSrc] = useState("../images/icons/hamburger.svg");
+  const [imgSrc, setImgSrc] = useState(hamburger);
   const [listClasses, setListClasses] = useState("hide");
 
   const isMobile = useMediaQuery({ query: "(max-width: 450px)" });
@@ -11,16 +13,16 @@ function NavBar() {
   function hamburgClickHandler() {
     if (listClasses === "hide") {
       setListClasses("show");
-      setImgSrc("../images/icons/close.svg");
+      setImgSrc(close);
     } else {
       setListClasses("hide");
-      setImgSrc("../images/icons/hamburger.svg");
+      setImgSrc(hamburger);
     }
   }
 
   function closeNav() {
     setListClasses("hide");
-    setImgSrc("../images/icons/hamburger.svg");
+    setImgSrc(hamburger);
   }
 
   return (
