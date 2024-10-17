@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import "./BareButton.css";
+import parse from "html-react-parser";
 
 function BareButton({ text }) {
-  return <button className="bare-btn">{text}</button>;
+  return <button className="bare-btn">{parse(text)}</button>;
 }
 
 BareButton.propTypes = {

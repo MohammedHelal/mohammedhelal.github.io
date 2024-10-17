@@ -1,0 +1,53 @@
+.tag-sphere {
+  position: relative;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagcloud {
+  display: inline-block;
+}
+
+.tagcloud > span {
+  cursor: pointer;
+}
+
+.st0 {
+  fill: #475569;
+}
+.tagcloud > span:hover .st0 {
+  fill: var(--color-cyan);
+}
+
+.tagcloud p {
+  color: var(--color-dark-blue);
+  font-weight: 700;
+}
+
+.tagcloud div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tag-sphere {
+    position: relative;
+    top: 0;
+    width: calc(100vw - 100px);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tagcloud {
+    width: 300px;
+  }
+}
