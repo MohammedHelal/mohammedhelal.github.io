@@ -35,7 +35,7 @@ function TagSphere() {
 
       TagCloud(container, texts, options);
     };
-  });
+  }, [isMobile]);
 
   return (
     <>
