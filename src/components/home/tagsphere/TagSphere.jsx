@@ -1,8 +1,9 @@
 import { useEffect } from "react";
-import TagCloud from "TagCloud";
+//import TagCloud from "TagCloud";
 import { tagShpereIcons } from "../../../utils/svgIcons";
 import "./TagSphere.css";
 import { useMediaQuery } from "react-responsive";
+import TagCloud from "TagCloud";
 
 function TagSphere() {
   const isMobile = useMediaQuery({ query: "(max-width: 500px)" });
