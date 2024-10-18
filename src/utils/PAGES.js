@@ -73,8 +73,8 @@ export const PAGES = [
         <li><strong>API Integration:</strong> Product data fetched from the Fake Store API and dynamically displayed</li>
       </ul>
   `,
-    github: "",
-    website: "",
+    github: "https://github.com/MohammedHelal/mh-store",
+    website: "https://mohammedhelal.github.io/mh-store/",
   },
   {
     id: "designo",
