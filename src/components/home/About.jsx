@@ -25,7 +25,7 @@ function About() {
         <h2 className="my-[25px]">About Me</h2>
         <div
           className={`relative my-[25px] transition-[height] duration-300 ${
-            showAboutMe ? "h-[560px]" : "h-[155px]"
+            showAboutMe ? "h-[585px]" : "h-[180px]"
           }`}
         >
           <p>
