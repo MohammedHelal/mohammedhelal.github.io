@@ -18,7 +18,7 @@ function About() {
       </div>
       <article
         id="about-me"
-        className={`about-article transition-[height] duration-300 ${
+        className={`flex flex-col justify-center about-article transition-[height] duration-300 ${
           showAboutMe ? "h-auto" : "h-[450px]"
         }`}
       >

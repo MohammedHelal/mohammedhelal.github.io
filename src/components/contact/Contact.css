@@ -33,13 +33,13 @@
   margin-top: 20px;
 }
 
-.contact-icons > svg,
-.footer-icons > svg {
+.contact-icons > *,
+.footer-icons > * {
   margin: 0 25px;
   cursor: pointer;
 }
 
-.contact-icons > svg:first-child {
+.contact-icons > *:first-child {
   margin-left: 0;
 }
 
@@ -50,8 +50,8 @@
   fill: var(--color-very-light-grey);
 }
 
-.contact-icons > svg:hover .social-icons,
-.footer-icons > svg:hover .footer-social-icons {
+.contact-icons > *:hover .social-icons,
+.footer-icons > *:hover .footer-social-icons {
   fill: #ff6347;
 }
 
