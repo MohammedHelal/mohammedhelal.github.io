@@ -23,11 +23,7 @@ function About() {
         }`}
       >
         <h2 className="">About Me</h2>
-        <div
-          className={`relative my-[25px] transition-[height] duration-300 ${
-            showAboutMe ? "h-auto" : "h-[325px]"
-          }`}
-        >
+        <div className={`relative my-[25px] `}>
           <p>
             I'm a front-end developer who builds production-ready web
             applications with a systems engineer's mindset. Over 3+ years, I've
