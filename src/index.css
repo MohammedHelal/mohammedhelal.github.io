@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 * {
   box-sizing: border-box;
@@ -17,7 +14,7 @@
 
   /*primary colors*/
 
-  --color-cyan: #ff6347;
+  --color-orange: #ff6347;
   --color-dark-blue: #203a4c;
   --color-grayish-blue: #33323d;
 
@@ -63,7 +60,7 @@ h3 {
   font-size: 32px;
   font-weight: 100;
   line-height: 36px;
-  color: var(--color-cyan);
+  color: var(--color-orange);
 }
 
 h4 {
@@ -71,7 +68,7 @@ h4 {
   font-size: 16px;
   font-weight: 700;
   line-height: 25px;
-  color: var(--color-cyan);
+  color: var(--color-orange);
 }
 
 h5 {
@@ -81,6 +78,9 @@ h5 {
   line-height: 20px;
   letter-spacing: 1px;
   color: #475569;
+}
+h5:hover {
+  color: var(--color-orange);
 }
 
 ul {

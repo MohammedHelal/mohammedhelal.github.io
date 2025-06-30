@@ -19,20 +19,25 @@ function About() {
       <article
         id="about-me"
         className={`about-article transition-[height] duration-300 ${
-          showAboutMe ? "h-[750px]" : "h-[500px]"
+          showAboutMe ? "h-auto" : "h-[450px]"
         }`}
       >
-        <h2 className="my-[25px]">About Me</h2>
+        <h2 className="">About Me</h2>
         <div
           className={`relative my-[25px] transition-[height] duration-300 ${
-            showAboutMe ? "h-[585px]" : "h-[180px]"
+            showAboutMe ? "h-auto" : "h-[325px]"
           }`}
         >
           <p>
-            Hi, I’m Mohammed Helal, a seasoned technology professional with 5
-            years of experience as a storage engineer. While my background is in
-            infrastructure, I’ve developed a strong passion for web development
-            and have been actively honing my skills in this area.
+            I'm a front-end developer who builds production-ready web
+            applications with a systems engineer's mindset. Over 3+ years, I've
+            developed and maintained responsive platforms like "Masaakin" - a
+            real estate application serving thousands of users across the UAE.
+            <br className="mb-[5px]" />
+            My 5-year background in enterprise systems engineering gives me what
+            most front-end developers lack: expertise in debugging complex
+            issues, optimizing performance, and building applications that scale
+            reliably.
           </p>
           <div
             className={`relative transition-all duration-300 origin-top ${
@@ -41,40 +46,40 @@ function About() {
                 : "scale-y-0 opacity-0 h-0"
             }`}
           >
-            <ul className="list-none my-[15px] -ml-[15px]">
+            <h4 className="mt-[15px] mb-[8px]">What makes me different:</h4>
+            <ul className="list-none mb-[15px] ml-[15px]">
               <li>
-                <strong>Design:</strong>
-                <ul className="ml-[15px]">
-                  <li>
-                    Proficient in creating wireframes and translating them into
-                    designs using Figma
-                  </li>
-                  <li>
-                    Collaborative experience working from designer assets in
-                    Figma or Sketch
-                  </li>
-                </ul>
+                <span className="font-bold">Production-Ready Mindset:</span> My
+                systems background means I build with reliability, performance,
+                and scalability in mind from day one
               </li>
               <li>
-                <strong>Development:</strong>
-                <ul className="ml-[15px]">
-                  <li>Front-end expertise with React, CSS, and Tailwind</li>
-                  <li>Back-end development using C#, ASP.NET, and MS SQL</li>
-                </ul>
+                <span className="font-bold">Problem-Solving Depth:</span> Years
+                of troubleshooting critical enterprise systems taught me to
+                approach bugs systematically and think through edge cases
               </li>
               <li>
-                <strong>Deployment:</strong>
-                <ul className="ml-[15px]">
-                  <li>
-                    Strong understanding of secure and seamless code deployment
-                    processes, drawing from my infrastructure background
-                  </li>
-                </ul>
+                <span className="font-bold">Full-Stack Perspective:</span> I
+                understand how front-end applications interact with servers,
+                databases, and infrastructure - not just how to make them look
+                good
+              </li>
+              <li>
+                <span className="font-bold">Proven Track Record:</span> I've
+                maintained a production application for 3+ years, handling real
+                users, real problems, and real business requirements
               </li>
             </ul>
             <p>
-              I’m eager to contribute to a dynamic web development team and
-              bring my technical skills and adaptability to new challenges.
+              I specialize in React.js and Next.js development, with experience
+              in TypeScript, PostgreSQL, and modern front-end tooling. Whether
+              you need someone to build a new application from scratch or
+              optimize an existing platform, I bring the technical skills and
+              systems thinking to deliver solutions that work reliably at scale.
+              <br />{" "}
+              <span className="italic">
+                Ready to build something amazing together? Let's talk.
+              </span>
             </p>
           </div>
           <h5

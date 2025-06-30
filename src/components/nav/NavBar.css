@@ -23,7 +23,7 @@
 }
 .nav-link:hover,
 .footer-link:hover {
-  color: var(--color-cyan);
+  color: var(--color-orange);
 }
 
 .footer-link {
@@ -85,7 +85,7 @@
   }
 
   .nav-link:hover {
-    background-color: var(--color-cyan);
+    background-color: var(--color-orange);
     color: var(--color-very-light-grey);
   }
 
