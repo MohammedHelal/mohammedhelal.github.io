@@ -9,7 +9,7 @@
 }
 
 .btn:hover {
-  background-color: var(--color-cyan);
+  background-color: var(--color-orange);
 }
 
 @media screen and (max-width: 425px) {

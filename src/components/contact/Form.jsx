@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "../../utils/Button";
+import emailjs from "@emailjs/browser";
 
 function Form() {
   const [formInput, setFormInput] = useState({
@@ -71,7 +72,36 @@ function Form() {
       return;
     }
 
-    console.log(formInput);
+    let name = formInput.name;
+    let message = `
+    Email: ${formInput.email}
+    Message: ${formInput.message}
+    `;
+
+    let templateParams = {
+      name: name,
+      email: "mohd.omar.helal@gmail.com",
+      message: message,
+    };
+    console.log("weird: " + import.meta.env.VITE_EMAILJS_SERVICE_ID);
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        }
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+
     setFormInput({
       name: "",
       email: "",

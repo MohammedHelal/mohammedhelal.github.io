@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import "./Button.css";
 
-function Button({ text }) {
+function Button({ text, classes }) {
   return (
-    <button className="btn">
+    <button className={`btn ${classes}`}>
       <span className="text-btn">{text}</span>
     </button>
   );
