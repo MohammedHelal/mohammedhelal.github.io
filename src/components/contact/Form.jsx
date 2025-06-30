@@ -83,7 +83,7 @@ function Form() {
       email: "mohd.omar.helal@gmail.com",
       message: message,
     };
-    console.log("weird: " + import.meta.env.VITE_EMAILJS_SERVICE_ID);
+
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
